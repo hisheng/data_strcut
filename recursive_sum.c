@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*求和 1-m */ 
+/*求和 1-m  《算法图解》*/ 
 
 int sum(int m)
 {
