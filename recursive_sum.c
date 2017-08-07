@@ -4,9 +4,11 @@
 
 int sum(int m)
 {
-	m--;
-	if (m > 0)
-		return m + sum(m--)
+	int x,y;
+	x = m;
+	y = m - 1;
+	if (y > 0) /*基线条件*/
+		return x + sum(y); /*递归条件*/
 	else
 		return m;
 }
